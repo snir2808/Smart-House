@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Smart-House/static/css/main.0ca60cc9.chunk.css",
+    "main.js": "/Smart-House/static/js/main.15896f70.chunk.js",
+    "main.js.map": "/Smart-House/static/js/main.15896f70.chunk.js.map",
+    "runtime-main.js": "/Smart-House/static/js/runtime-main.e44a028b.js",
+    "runtime-main.js.map": "/Smart-House/static/js/runtime-main.e44a028b.js.map",
+    "static/js/2.843f7a71.chunk.js": "/Smart-House/static/js/2.843f7a71.chunk.js",
+    "static/js/2.843f7a71.chunk.js.map": "/Smart-House/static/js/2.843f7a71.chunk.js.map",
+    "static/js/3.7cabbe6c.chunk.js": "/Smart-House/static/js/3.7cabbe6c.chunk.js",
+    "static/js/3.7cabbe6c.chunk.js.map": "/Smart-House/static/js/3.7cabbe6c.chunk.js.map",
+    "index.html": "/Smart-House/index.html",
+    "static/css/main.0ca60cc9.chunk.css.map": "/Smart-House/static/css/main.0ca60cc9.chunk.css.map",
+    "static/js/2.843f7a71.chunk.js.LICENSE.txt": "/Smart-House/static/js/2.843f7a71.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Smart-House/static/media/annie-spratt-yI3weKNBRTc-unsplash.3e1c5e32.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e44a028b.js",
+    "static/js/2.843f7a71.chunk.js",
+    "static/css/main.0ca60cc9.chunk.css",
+    "static/js/main.15896f70.chunk.js"
+  ]
+}

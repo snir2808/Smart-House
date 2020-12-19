@@ -14,10 +14,13 @@ export default function ShowRooms(props) {
         let rturnFunc = () =>{
             props.func(roomIndex[0],roomIndex[1],roomIndex[2])
         }
+        let clear = () =>{
+            props.clear()
+        }
     return (
         <div>
-        <div className={'room'} style={divStyle}>
-           <Link
+     <div className={'room'} style={divStyle}>
+           <Link onClick={clear}
             style={{ textDecoration: 'none' }}
             to='/room' ><p 
            className={'roomName'}

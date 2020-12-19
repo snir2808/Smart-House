@@ -60,7 +60,9 @@ function App(props) {
     }
   }
 
-
+  let clear = () =>{
+    setAppliancesObg([])
+  }
 
 
 
@@ -83,6 +85,7 @@ function App(props) {
            <Home
              arr = {rooms}
              func = {chack}
+             clear ={clear}
              
           />
           
