@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+html{
+  background-color:#F2F2F2;
+}
+
+
+
+#root{
+  margin-top: 30px;
+  
+}
+.App {
+  text-align: center;
+  border: 2px solid #9CC1D9;
+  border-radius: 15px;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url('./media/annie-spratt-yI3weKNBRTc-unsplash.jpg');
+  background-attachment: fixed;
+  -webkit-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.75);
+display: flex;
+justify-content: center;
+overflow: hidden;
+}
+
+.app{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
+  flex-wrap: wrap;
+  float: left;
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 75px;
+  color:#30618C;
+background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+background: none;
+margin-bottom: 50px;
+text-decoration: none;
+}
+
+.room{
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.75);
+  margin: 10px;
+  flex-wrap: wrap;
+  float: left;
+  text-decoration: none;
+}
+.roomName{
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: lightgrey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-bottom: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+input {
+  padding: 15px;
+  font-size: 25px;
+  border-width: 4px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: groove;
+  border-radius: 17px;
+  box-shadow: 0px 0px 9px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+input:focus {
+  outline:none;
+}
+select {
+  font-size:25px;
+  padding:3px;
+  margin: 0;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  background: #f8f8f8;
+  color:#888;
+  border:none;
+  outline:none;
+  display: inline-block;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+  width: 345px;
+  height: 55px;
+  font-size: 25px;
+  border-width: 4px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: groove;
+  border-radius: 17px;
+  box-shadow: 0px 0px 9px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.smallSelect{
+  position: relative;
+  width: 200px;
+  height: 40px;
+  margin-top: -150px;
+
+}
+
+.pNT{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color:#30618C;
+background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+background: none;
+text-decoration: none;
+}
